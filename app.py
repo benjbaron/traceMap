@@ -1,37 +1,89 @@
 from flask import Flask, render_template, request
 from werkzeug import secure_filename
-import db
 import os, sys, json
 import time
+import process
+import db
+
 
 UPLOAD_FOLDER = "traces/"
 
 app = Flask(__name__)
-db = db.get_db()
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+trace_db = db.get_db()
 
 
 @app.route('/')
 def home():
+	return map()
+
+
+@app.route('/map')
+def map():
 	return render_template('index.html')
+
+
+@app.route('/tracelist')
+def trace_list():
+	return render_template('tracelist.html')
+
+
+@app.route('/gettraces')
+def get_traces():
+	return json.dumps(db.get_traces(trace_db))
+
+
+@app.route('/gettraceslist')
+def get_traces_list():
+	return json.dumps(db.get_traces_list(trace_db))
+
+
+@app.route('/showtrace', methods = [ 'GET', 'POST' ])
+def show_trace():
+	if request.method == 'GET':
+		print(request.args)
+		trace_id = request.args.get('trace_id')
+		user_id = request.args.get('user_id')
+		trace_type = request.args.get('type')
+		return json.dumps(db.get_trace(trace_db, trace_id, user_id, trace_type))
+
+
+@app.route('/processtrace', methods = [ 'GET', 'POST' ])
+def process_trace():
+	trace_id = ""
+	user_id = ""
+	path = ""
+	if request.method == 'POST':
+		trace_id = request.json['trace_id']
+		user_id = request.json['user_id']
+		path = request.json['path']
+
+		db.process_new_trace(trace_db, path, trace_id, user_id)
+	
+	return json.dumps({"trace_id": trace_id, "user_id": user_id})
 
 
 @app.route('/uploader', methods = ['GET', 'POST'])
 def upload_file():
+	print("upload file " + request.method)
+	d = {"files":[]}
 	if request.method == 'POST':
 		files = request.files.getlist("files[]")
 		print(files)
-		d = {"files":[]}
 		for f in files:
 			filename = secure_filename(f.filename)
+			name, ext = os.path.splitext(filename)
 			# save the file
 			path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 			if os.path.isfile(path):
 				continue
 
-			# save file in UPLOAD_FOLDER and send mail
+			# save file in UPLOAD_FOLDER
 			f.save(path)
-			process_new_logs(db, path)
-			d["files"].append({"name": filename})
+			ids = process.get_user_ids(path)
+
+			d["files"].append({"filename": filename, "ids": ids, "path": path, "name": name, "ext": ext})
 
 	return json.dumps(d)
 

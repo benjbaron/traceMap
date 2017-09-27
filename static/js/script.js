@@ -9,7 +9,7 @@ var map = new mapboxgl.Map({
 
 var listingEl = document.getElementById('layer-listing');
 var availableTraces = {}
-var availableTracesUrl = './traces.json';
+var availableTracesUrl = '/gettraceslist';
 var layersShown = new Set();
 var legendShown = null;
 
@@ -42,7 +42,9 @@ function renderLayerListings(traceIds) {
         return;
       }
 
-      var traceName = availableTraces.traces[traceId].name;
+      var traceName = availableTraces[traceId].trace_id + 
+        " (" + availableTraces[traceId].user_id + ") - " +
+        availableTraces[traceId].type;
       var div = document.createElement('div');
       div.setAttribute('id', divId);
 
@@ -74,7 +76,7 @@ function renderLayerListings(traceIds) {
       button.setAttribute('id', 'del-'+traceId);
       button.addEventListener('click', function() {
         var layerId = button.id.match(/del\-(.*)/)[1];
-        var sourceId = availableTraces.traces[layerId]["source-id"];
+        var sourceId = availableTraces[layerId]["source-id"];
         map.removeLayer(traceId);
         map.removeSource(sourceId);
         map.off('click', traceId, generatePopupHTML);
@@ -136,23 +138,23 @@ function renderTraceListing(data) {
     modalBody.removeChild(modalBody.firstChild);
   }
 
-  for(var traceId in data.traces) {
+  for(var traceId in data) {
     if(layersShown.has(traceId)) {
       continue;
     }
 
-    var trace = data.traces[traceId];
+    var trace = data[traceId];
     var div = document.createElement('div');
     div.setAttribute('class', 'modal-body-trace');
 
     var checkbox = document.createElement('input');
     checkbox.setAttribute('type', 'checkbox');
     checkbox.setAttribute('name', 'trace');
-    checkbox.setAttribute('value', trace.id);
+    checkbox.setAttribute('value', traceId);
     checkbox.defaultChecked = false;
 
     var item = document.createElement('span');
-    item.textContent = trace.name;
+    item.textContent = trace.trace_id + " (" + trace.user_id + ") - " + trace.type;
     item.addEventListener('click', function(){
       this.previousSibling.checked = !this.previousSibling.checked;
     });
@@ -168,7 +170,6 @@ function renderTraceListing(data) {
 }
 
 function renderLegend(traceId) {
-  console.log("renderLegend");
   var trace = availableTraces.traces[traceId];
   var panelEl = document.getElementById('layer-modal-panel-content');
   panelEl.textContent = "";
@@ -224,7 +225,10 @@ function showTraces(traceIds) {
   queue.defer(get, traceIds)
   for(var idx in traceIds.reverse()) {
     var traceId = traceIds[idx];
-    var traceUrl = availableTraces.traces[traceId].path;
+    var trace_id = availableTraces[traceId].trace_id;
+    var user_id = availableTraces[traceId].user_id;
+    var type = availableTraces[traceId].type;
+    var traceUrl = "showtrace?trace_id="+trace_id+"&user_id="+user_id+"&type="+type;
     queue.defer(d3.json, traceUrl);
   }
   queue.awaitAll(renderTraces);
@@ -232,7 +236,7 @@ function showTraces(traceIds) {
 
 function generatePopupHTML(e) {
   var traceId = e.features[0].layer.id;
-  var popup = availableTraces.traces[traceId]["popup"];
+  var popup = availableTraces[traceId]["popup"];
   var s = "";
   for(var attribute in popup.attributes) {
     var type = popup.attributes[attribute];
@@ -262,14 +266,14 @@ function renderTraces(error, data) {
   data.shift();
   for(var idx in data) {
     var traceId = traceIds[idx];
-    var sourceId = availableTraces.traces[traceId]["source-id"];
-    var sourceType = availableTraces.traces[traceId]["data-type"];
+    var sourceId = availableTraces[traceId]["source-id"];
+    var sourceType = availableTraces[traceId]["data-type"];
     var dataSource = data[idx];
-    var type = availableTraces.traces[traceId]["type"];
-    var paint = availableTraces.traces[traceId]["paint"];
-    var layout = availableTraces.traces[traceId]["layout"];
-    var start_ts = availableTraces.traces[traceId]["timeline"]['start'];
-    var end_ts = availableTraces.traces[traceId]["timeline"]['end'];
+    var type = availableTraces[traceId]["type"];
+    var paint = availableTraces[traceId]["paint"];
+    var layout = availableTraces[traceId]["layout"];
+    var start_ts = availableTraces[traceId]["timeline"]['start'];
+    var end_ts = availableTraces[traceId]["timeline"]['end'];
     if(minTS > start_ts)
       minTS = start_ts;
     if(maxTS < end_ts)

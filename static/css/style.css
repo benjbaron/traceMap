@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+.row-m-t{
+  margin-top: 20px
+}
+
 #map {
     top: 50px;
     left: 0;
@@ -178,5 +182,4 @@ li>div:hover {
     border-bottom-color: #EEEEEE;
     background-color: #FAFAFA;
 }
-
 
