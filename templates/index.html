@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>Anonymous traces</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+	<script src="js/ion.rangeSlider.js"></script>
+	<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
+	<script src='js/moment.js' charset='utf-8'></script>
+	<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-eye-close"></span>  Anonymous Trace</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><div class="about">About</div></li>
+                    <li><div class="attribution">Attribution</div></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+	<div id='map'></div>
+
+	<div class='map-overlay'>
+		<div class='map-overlay-inner' id="timeline-slider" style="display: none;">
+	        <input id='slider' type='range' min='0' max='11' step='1' value='0' />
+	    </div>
+	    <div id='layer-add' class='map-overlay-inner'>
+	    	<button type="button" class="btn btn-primary btn-block" id="layerModal-button">Add layer</button>
+	    	<div class="modal fade" id="layerModal" tabindex="-1" role="dialog" aria-labelledby="layerModal" aria-hidden="true">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			            <h4 class="modal-title" id="layerModal-title">Modal title</h4>
+			            </div>
+			            <div class="modal-body listing" id="layerModal-body"></div>
+			            <div class="modal-footer">
+			                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			                <button type="button" class="btn btn-primary" id="layerModal-save">Load traces</button>
+			        	</div>
+			    	</div>
+			  	</div>
+			</div>
+	    </div><!-- map-overlay-inner -->
+		<div id='layer-listing' class='listing'></div>
+	</div><!-- map-overlay -->
+	<div class="map-overlay" id="layer-modal-panel" style="display: none; padding: 10px; left: 300px">
+		<div class="content">
+			<div class="header">
+				<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+				<h4 class="modal-title" id="layer-modal-panel-title"></h4>
+			</div>
+			<div class="body" id="layer-modal-panel-content"></div>
+		</div><!-- modal-content -->
+	</div><!-- modal -->
+
+
+	<script src='js/script.js'></script>
+</body>
+</html>

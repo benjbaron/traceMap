@@ -1,0 +1,348 @@
+{
+	"nb_traces": 3,
+	"traces": {
+		"places": {
+			"name": "Visited places",
+			"path": "./bb_test-places.geojson",
+			"source-id": "bb_test-places",
+			"id": "places",
+			"data-type": "geojson",
+			"type": "circle",
+			"legend": {
+				"key-1": {
+					"key-property": "circle-color",
+					"key-title": "Time spent at locations (seconds)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS"
+				},
+				"lnglat": true
+			},
+			"timeline": {
+				"start": 1494547385182,
+				"end": 1494892873314,
+				"dataType": "dateMS"
+			},
+			"paint": {
+		      	"circle-color": {
+		        	"property": "dur",
+		        	"stops": [
+		        	  	[0, "#FCA107"],
+		        	  	[100000, "#7F3121"]
+		        	]
+		      	},
+		      	"circle-radius": 5
+		    },
+		    "layout": {}
+		},
+		"trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_mov": {
+			"name": "Trajectory f7ee466145b5f62ad979777487af2d942118522e movements",
+			"path": "./trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_mov.geojson",
+			"source-id": "trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_mov",
+			"id": "trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_mov",
+			"data-type": "geojson",
+			"type": "line",
+			"legend": {
+				"key-1": {
+					"key-property": "line-color",
+					"key-title": "Speed between places (m/s)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS",
+					"speed": null
+				},
+				"lnglat": false
+			},
+			"timeline": {
+				"start": 1441778806000,
+				"end": 1441825758000,
+				"dataType": "dateMS"
+			},
+			"paint": {
+      			"line-color": {
+        			"property": "speed",
+        			"stops": [
+          				[0, "#FCA107"],
+          				[100, "#7F3121"]
+        			]
+      			},
+      			"line-width": 2
+    		},
+    		"layout": {
+      			"line-join": "round",
+      			"line-cap": "round"
+    		}
+		},
+		"trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_loc": {
+			"name": "Trajectory f7ee466145b5f62ad979777487af2d942118522e locations",
+			"path": "./trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_loc.geojson",
+			"source-id": "trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_loc",
+			"id": "trajectory_f7ee466145b5f62ad979777487af2d942118522e_15_9_9_loc",
+			"data-type": "geojson",
+			"type": "circle",
+			"legend": {
+				"key-1": {
+					"key-property": "circle-color",
+					"key-title": "Time spent at locations (seconds)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS"
+				},
+				"lnglat": true
+			},
+			"timeline": {
+				"start": 1441772181000,
+				"end": 1441825759000,
+				"dataType": "dateMS"
+			},
+			"paint": {
+		      	"circle-color": {
+		        	"property": "dur",
+		        	"stops": [
+		        	  	[0, "#FCA107"],
+		        	  	[1000, "#7F3121"]
+		        	]
+		      	},
+		      	"circle-radius": 5
+		    },
+		    "layout": {}
+		},
+		"places_353773085361090": {
+			"name": "Visited places (353773085361090)",
+			"path": "./bb_test_353773085361090-places.geojson",
+			"source-id": "bb_test_353773085361090-places",
+			"id": "places_353773085361090",
+			"data-type": "geojson",
+			"type": "circle",
+			"legend": {
+				"key-1": {
+					"key-property": "circle-color",
+					"key-title": "Time spent at locations (seconds)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS"
+				},
+				"lnglat": true
+			},
+			"timeline": {
+				"start": 1492876152806,
+				"end": 1494622681565,
+				"dataType": "dateMS"
+			},
+			"paint": {
+		      	"circle-color": {
+		        	"property": "dur",
+		        	"stops": [
+		        	  	[0, "#FCA107"],
+		        	  	[100000, "#7F3121"]
+		        	]
+		      	},
+		      	"circle-radius": 5
+		    },
+		    "layout": {}
+		},
+		"places_353877070387380": {
+			"name": "Visited places (353877070387380)",
+			"path": "./bb_test_353877070387380-places.geojson",
+			"source-id": "bb_test_353877070387380-places",
+			"id": "places_353877070387380",
+			"data-type": "geojson",
+			"type": "circle",
+			"legend": {
+				"key-1": {
+					"key-property": "circle-color",
+					"key-title": "Time spent at locations (seconds)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS"
+				},
+				"lnglat": true
+			},
+			"timeline": {
+				"start": 1491574087920,
+				"end": 1498665222885,
+				"dataType": "dateMS"
+			},
+			"paint": {
+		      	"circle-color": {
+		        	"property": "dur",
+		        	"stops": [
+		        	  	[0, "#FCA107"],
+		        	  	[100000, "#7F3121"]
+		        	]
+		      	},
+		      	"circle-radius": 5
+		    },
+		    "layout": {}
+		},
+		"movements": {
+			"name": "Movements between places",
+			"path": "./bb_test-movements.geojson",
+			"source-id": "bb_test-movements",
+			"id": "movements",
+			"data-type": "geojson",
+			"type": "line",
+			"legend": {
+				"key-1": {
+					"key-property": "line-color",
+					"key-title": "Speed between places (m/s)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS",
+					"speed": null
+				},
+				"lnglat": false
+			},
+			"timeline": {
+				"start": 1494547712975,
+				"end": 1494892573494,
+				"dataType": "dateMS"
+			},
+			"paint": {
+      			"line-color": {
+        			"property": "speed",
+        			"stops": [
+          				[0, "#FCA107"],
+          				[100, "#7F3121"]
+        			]
+      			},
+      			"line-width": 2
+    		},
+    		"layout": {
+      			"line-join": "round",
+      			"line-cap": "round"
+    		}
+      	},
+      	"movements_353877070387380": {
+			"name": "Movements between places (353877070387380)",
+			"path": "./bb_test_353877070387380-movements.geojson",
+			"source-id": "bb_test_353877070387380-movements",
+			"id": "movements_353877070387380",
+			"data-type": "geojson",
+			"type": "line",
+			"legend": {
+				"key-1": {
+					"key-property": "line-color",
+					"key-title": "Speed between places (m/s)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"dur": "timeMS",
+					"speed": null
+				},
+				"lnglat": false
+			},
+			"timeline": {
+				"start": 1491574224261,
+				"end": 1498664576754,
+				"dataType": "dateMS"
+			},
+			"paint": {
+      			"line-color": {
+        			"property": "speed",
+        			"stops": [
+          				[0, "#FCA107"],
+          				[100, "#7F3121"]
+        			]
+      			},
+      			"line-width": 2
+    		},
+    		"layout": {
+      			"line-join": "round",
+      			"line-cap": "round"
+    		}
+      	},
+		"flickr-london-sample": {
+			"name": "Flickr places London (sample)",
+			"path": "./yfcc100m_filtered_1000.geojson",
+			"source-id": "yfcc100m_filtered_1000",
+			"id": "flickr-london-sample",
+			"data-type": "geojson",
+			"type": "circle",
+			"legend": {
+				"key-1": {
+					"key-property": "circle-color",
+					"key-title": "Time spent at locations (seconds)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"uid": null
+				},
+				"lnglat": true
+			},
+			"timeline": {
+				"start": 545160528000,
+				"end": 1398347627000,
+				"dataType": "dateMS"
+			},
+			"paint": {
+		      	"circle-color": "#c66413",
+		      	"circle-radius": 5
+		    },
+		    "layout": {}
+		},
+		"flickr-london": {
+			"name": "Flickr places London",
+			"path": "./yfcc100m_filtered.geojson",
+			"source-id": "yfcc100m_filtered",
+			"id": "flickr-london",
+			"data-type": "geojson",
+			"type": "circle",
+			"legend": {
+				"key-1": {
+					"key-property": "circle-color",
+					"key-title": "Time spent at locations (seconds)"
+				}
+			},
+			"popup": {
+				"attributes": {
+					"ts_start": "dateMS",
+					"ts_end": "dateMS",
+					"uid": null
+				},
+				"lnglat": true
+			},
+			"timeline": {
+				"start": 545160528000,
+				"end": 1499677324000,
+				"dataType": "dateMS"
+			},
+			"paint": {
+		      	"circle-color": "#c66413",
+		      	"circle-radius": 5
+		    },
+		    "layout": {}
+		}
+
+	}
+}

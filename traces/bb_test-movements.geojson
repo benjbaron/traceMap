@@ -1,0 +1,3750 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494547712975,
+        "ts_end": 1494547713234,
+        "id": 0,
+        "dur": 259,
+        "distance": 0.0177286303837,
+        "speed": 68.4503103616
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1338635,
+            18.2268913
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494548041175,
+        "ts_end": 1494548041433,
+        "id": 1,
+        "dur": 258,
+        "distance": 1.76360766529,
+        "speed": 6835.68862516
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1427552,
+            18.2133937
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494548997931,
+        "ts_end": 1494548998499,
+        "id": 2,
+        "dur": 568,
+        "distance": 1.50086464188,
+        "speed": 2642.36732725
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427552,
+            18.2133937
+          ],
+          [
+            -67.1427552,
+            18.2268913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494549319445,
+        "ts_end": 1494549320269,
+        "id": 3,
+        "dur": 824,
+        "distance": 0.921596659218,
+        "speed": 1118.44254759
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427552,
+            18.2268913
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494549969470,
+        "ts_end": 1494549969733,
+        "id": 4,
+        "dur": 263,
+        "distance": 2.06684942838,
+        "speed": 7858.74307371
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.14733,
+            18.2132822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494556299612,
+        "ts_end": 1494556327142,
+        "id": 5,
+        "dur": 27530,
+        "distance": 0.483367637627,
+        "speed": 17.5578509854
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.14733,
+            18.2132822
+          ],
+          [
+            -67.1427552,
+            18.2133937
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494556870615,
+        "ts_end": 1494556870908,
+        "id": 6,
+        "dur": 293,
+        "distance": 1.76360766529,
+        "speed": 6019.13878939
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427552,
+            18.2133937
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494557184975,
+        "ts_end": 1494557185330,
+        "id": 7,
+        "dur": 355,
+        "distance": 0.00864852165769,
+        "speed": 24.3620328386
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494557807342,
+        "ts_end": 1494557807719,
+        "id": 8,
+        "dur": 377,
+        "distance": 0.00864852165769,
+        "speed": 22.9403757498
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494558130184,
+        "ts_end": 1494558131035,
+        "id": 9,
+        "dur": 851,
+        "distance": 2.04444535524,
+        "speed": 2402.40347266
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1227917,
+            18.2418872
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494558445268,
+        "ts_end": 1494558445579,
+        "id": 10,
+        "dur": 311,
+        "distance": 1.6646992468,
+        "speed": 5352.73069709
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1227917,
+            18.2418872
+          ],
+          [
+            -67.1227917,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494558757860,
+        "ts_end": 1494558759010,
+        "id": 11,
+        "dur": 1150,
+        "distance": 1.18687302806,
+        "speed": 1032.06350266
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1227917,
+            18.2269162
+          ],
+          [
+            -67.1340293,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494560041751,
+        "ts_end": 1494560042253,
+        "id": 12,
+        "dur": 502,
+        "distance": 0.0036583130865,
+        "speed": 7.28747626793
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269491
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494560365321,
+        "ts_end": 1494560365580,
+        "id": 13,
+        "dur": 259,
+        "distance": 2.06684942838,
+        "speed": 7980.11362311
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.14733,
+            18.2132822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494561095192,
+        "ts_end": 1494561095499,
+        "id": 14,
+        "dur": 307,
+        "distance": 1.51603162987,
+        "speed": 4938.21377809
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.14733,
+            18.2132822
+          ],
+          [
+            -67.14733,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494561431938,
+        "ts_end": 1494561433140,
+        "id": 15,
+        "dur": 1202,
+        "distance": 1.41260463864,
+        "speed": 1175.21184579
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.14733,
+            18.2269162
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494573192581,
+        "ts_end": 1494573192862,
+        "id": 16,
+        "dur": 281,
+        "distance": 0.00864852165769,
+        "speed": 30.7776571448
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494575125762,
+        "ts_end": 1494575126052,
+        "id": 17,
+        "dur": 290,
+        "distance": 0.00864852165769,
+        "speed": 29.8224884748
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494583968088,
+        "ts_end": 1494583968197,
+        "id": 18,
+        "dur": 109,
+        "distance": 0.00864852165769,
+        "speed": 79.3442353917
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494585359902,
+        "ts_end": 1494585360156,
+        "id": 19,
+        "dur": 254,
+        "distance": 1.55436279948,
+        "speed": 6119.53858064
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1381804,
+            18.2135051
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494587907898,
+        "ts_end": 1494587908122,
+        "id": 20,
+        "dur": 224,
+        "distance": 1.55436279948,
+        "speed": 6939.11964055
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381804,
+            18.2135051
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494589272177,
+        "ts_end": 1494589272500,
+        "id": 21,
+        "dur": 323,
+        "distance": 0.0060823624876,
+        "speed": 18.8308436149
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1340293,
+            18.2269709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494590654813,
+        "ts_end": 1494590655676,
+        "id": 22,
+        "dur": 863,
+        "distance": 2.87584537081,
+        "speed": 3332.38165795
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269709
+          ],
+          [
+            -67.1502082,
+            18.2061689
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494591291365,
+        "ts_end": 1494591291485,
+        "id": 23,
+        "dur": 120,
+        "distance": 0.142259656238,
+        "speed": 1185.49713532
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1502082,
+            18.2061689
+          ],
+          [
+            -67.1491841,
+            18.2069998
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494592766559,
+        "ts_end": 1494592770141,
+        "id": 24,
+        "dur": 3582,
+        "distance": 0.0659898057289,
+        "speed": 18.4226146647
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1491841,
+            18.2069998
+          ],
+          [
+            -67.1495565,
+            18.2065233
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494593735636,
+        "ts_end": 1494593735957,
+        "id": 25,
+        "dur": 321,
+        "distance": 2.81080111263,
+        "speed": 8756.38975897
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1495565,
+            18.2065233
+          ],
+          [
+            -67.1651036,
+            18.227039
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494594461605,
+        "ts_end": 1494594461787,
+        "id": 26,
+        "dur": 182,
+        "distance": 0.0458113641274,
+        "speed": 251.710791909
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1651036,
+            18.227039
+          ],
+          [
+            -67.1649174,
+            18.2266669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494595590872,
+        "ts_end": 1494595591443,
+        "id": 27,
+        "dur": 571,
+        "distance": 0.0884385830452,
+        "speed": 154.883683091
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1649174,
+            18.2266669
+          ],
+          [
+            -67.1651967,
+            18.2259171
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494596064866,
+        "ts_end": 1494596065218,
+        "id": 28,
+        "dur": 352,
+        "distance": 0.0150269598336,
+        "speed": 42.6902268001
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1651967,
+            18.2259171
+          ],
+          [
+            -67.1653363,
+            18.225891
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494596735103,
+        "ts_end": 1494596735364,
+        "id": 29,
+        "dur": 261,
+        "distance": 0.0926971082875,
+        "speed": 355.161334435
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1653363,
+            18.225891
+          ],
+          [
+            -67.1648243,
+            18.2265681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494597114222,
+        "ts_end": 1494597114938,
+        "id": 30,
+        "dur": 716,
+        "distance": 73.4999359049,
+        "speed": 102653.541767
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1648243,
+            18.2265681
+          ],
+          [
+            -66.4876412,
+            18.3801048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494597184148,
+        "ts_end": 1494625368392,
+        "id": 31,
+        "dur": 28184244,
+        "distance": 0.884064255274,
+        "speed": 0.0313673219432
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4876412,
+            18.3801048
+          ],
+          [
+            -66.4805375,
+            18.3758899
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494629770011,
+        "ts_end": 1494629770262,
+        "id": 32,
+        "dur": 251,
+        "distance": 9.08003767194,
+        "speed": 36175.4488922
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4805375,
+            18.3758899
+          ],
+          [
+            -66.529546,
+            18.4430156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494630069866,
+        "ts_end": 1494630070177,
+        "id": 33,
+        "dur": 311,
+        "distance": 4.43425905271,
+        "speed": 14258.0676936
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.529546,
+            18.4430156
+          ],
+          [
+            -66.4904723,
+            18.4283116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494630423090,
+        "ts_end": 1494630428468,
+        "id": 34,
+        "dur": 5378,
+        "distance": 0.0612572850887,
+        "speed": 11.3903467997
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4904723,
+            18.4283116
+          ],
+          [
+            -66.4904723,
+            18.4277607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494630900310,
+        "ts_end": 1494630900815,
+        "id": 35,
+        "dur": 505,
+        "distance": 0.163425029977,
+        "speed": 323.613920747
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4904723,
+            18.4277607
+          ],
+          [
+            -66.4920214,
+            18.4277486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494631397394,
+        "ts_end": 1494631397688,
+        "id": 36,
+        "dur": 294,
+        "distance": 0.00966283912535,
+        "speed": 32.8667997461
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4920214,
+            18.4277486
+          ],
+          [
+            -66.4920214,
+            18.4278355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494631767105,
+        "ts_end": 1494631767538,
+        "id": 37,
+        "dur": 433,
+        "distance": 0.0129258239736,
+        "speed": 29.8517874678
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4920214,
+            18.4278355
+          ],
+          [
+            -66.4920894,
+            18.4277388
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494632236421,
+        "ts_end": 1494632236672,
+        "id": 38,
+        "dur": 251,
+        "distance": 0.00358964557651,
+        "speed": 14.3013767989
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4920894,
+            18.4277388
+          ],
+          [
+            -66.4921144,
+            18.4277607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494633332604,
+        "ts_end": 1494633332856,
+        "id": 39,
+        "dur": 252,
+        "distance": 2.00554014184,
+        "speed": 7958.49262636
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4921144,
+            18.4277607
+          ],
+          [
+            -66.4744826,
+            18.4345062
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494637151172,
+        "ts_end": 1494637151421,
+        "id": 40,
+        "dur": 249,
+        "distance": 1.99695073952,
+        "speed": 8019.88248805
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4744826,
+            18.4345062
+          ],
+          [
+            -66.4920214,
+            18.4277486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494638082746,
+        "ts_end": 1494638083322,
+        "id": 41,
+        "dur": 576,
+        "distance": 0.00134545861213,
+        "speed": 2.33586564606
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4920214,
+            18.4277486
+          ],
+          [
+            -66.4920214,
+            18.4277607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494639199993,
+        "ts_end": 1494639200658,
+        "id": 42,
+        "dur": 665,
+        "distance": 0.0128620351272,
+        "speed": 19.3414062063
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4920214,
+            18.4277607
+          ],
+          [
+            -66.4921144,
+            18.4276859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494642477333,
+        "ts_end": 1494642477978,
+        "id": 43,
+        "dur": 645,
+        "distance": 0.0923029473985,
+        "speed": 143.105344804
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4921144,
+            18.4276859
+          ],
+          [
+            -66.4928585,
+            18.4272492
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494643080854,
+        "ts_end": 1494643081353,
+        "id": 44,
+        "dur": 499,
+        "distance": 4.25084325578,
+        "speed": 8518.72395947
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4928585,
+            18.4272492
+          ],
+          [
+            -66.4838063,
+            18.3899978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494644030786,
+        "ts_end": 1494644031084,
+        "id": 45,
+        "dur": 298,
+        "distance": 1.17211761937,
+        "speed": 3933.28060192
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4838063,
+            18.3899978
+          ],
+          [
+            -66.4876412,
+            18.3801048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494644625721,
+        "ts_end": 1494644626083,
+        "id": 46,
+        "dur": 362,
+        "distance": 5.59577222988,
+        "speed": 15457.9343367
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4876412,
+            18.3801048
+          ],
+          [
+            -66.4910913,
+            18.4303222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494707162451,
+        "ts_end": 1494707162714,
+        "id": 47,
+        "dur": 263,
+        "distance": 0.0198066106554,
+        "speed": 75.3103066746
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4910913,
+            18.4303222
+          ],
+          [
+            -66.4912773,
+            18.4303465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494708087576,
+        "ts_end": 1494708087831,
+        "id": 48,
+        "dur": 255,
+        "distance": 0.0198066106554,
+        "speed": 77.6729829624
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4912773,
+            18.4303465
+          ],
+          [
+            -66.4910913,
+            18.4303222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494708590232,
+        "ts_end": 1494708590550,
+        "id": 49,
+        "dur": 318,
+        "distance": 0.232909708088,
+        "speed": 732.420465685
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4910913,
+            18.4303222
+          ],
+          [
+            -66.4904723,
+            18.4283116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494710592503,
+        "ts_end": 1494710593533,
+        "id": 50,
+        "dur": 1030,
+        "distance": 5.36866765748,
+        "speed": 5212.29869658
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4904723,
+            18.4283116
+          ],
+          [
+            -66.4876412,
+            18.3801048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494711285810,
+        "ts_end": 1494711286042,
+        "id": 51,
+        "dur": 232,
+        "distance": 5.36866765748,
+        "speed": 23140.8088685
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4876412,
+            18.3801048
+          ],
+          [
+            -66.4904723,
+            18.4283116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494716271147,
+        "ts_end": 1494716271536,
+        "id": 52,
+        "dur": 389,
+        "distance": 0.238553419295,
+        "speed": 613.247864511
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4904723,
+            18.4283116
+          ],
+          [
+            -66.492343,
+            18.4271063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494717172027,
+        "ts_end": 1494717225019,
+        "id": 53,
+        "dur": 52992,
+        "distance": 0.0581685314731,
+        "speed": 1.09768515008
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.492343,
+            18.4271063
+          ],
+          [
+            -66.4928854,
+            18.4272004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494718048104,
+        "ts_end": 1494718048698,
+        "id": 54,
+        "dur": 594,
+        "distance": 0.0489869080388,
+        "speed": 82.4695421529
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4928854,
+            18.4272004
+          ],
+          [
+            -66.49244,
+            18.427325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494719090087,
+        "ts_end": 1494719090338,
+        "id": 55,
+        "dur": 251,
+        "distance": 0.048315163945,
+        "speed": 192.490693008
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.49244,
+            18.427325
+          ],
+          [
+            -66.4921097,
+            18.427626
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494720279153,
+        "ts_end": 1494720279405,
+        "id": 56,
+        "dur": 252,
+        "distance": 0.0499932390194,
+        "speed": 198.385869125
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4921097,
+            18.427626
+          ],
+          [
+            -66.4921097,
+            18.4271764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494721092198,
+        "ts_end": 1494721092925,
+        "id": 57,
+        "dur": 727,
+        "distance": 0.213941240038,
+        "speed": 294.279559887
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4921097,
+            18.4271764
+          ],
+          [
+            -66.4904723,
+            18.4283116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494721718771,
+        "ts_end": 1494721719025,
+        "id": 58,
+        "dur": 254,
+        "distance": 5.36866765748,
+        "speed": 21136.4868405
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4904723,
+            18.4283116
+          ],
+          [
+            -66.4876412,
+            18.3801048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494722405199,
+        "ts_end": 1494722405501,
+        "id": 59,
+        "dur": 302,
+        "distance": 6.32186774652,
+        "speed": 20933.336909
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.4876412,
+            18.3801048
+          ],
+          [
+            -66.5061018,
+            18.4341932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494780172218,
+        "ts_end": 1494780172554,
+        "id": 60,
+        "dur": 336,
+        "distance": 5.95816699946,
+        "speed": 17732.6398794
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.5061018,
+            18.4341932
+          ],
+          [
+            -66.5623382,
+            18.4391857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494780472382,
+        "ts_end": 1494780472695,
+        "id": 61,
+        "dur": 313,
+        "distance": 1.97828954209,
+        "speed": 6320.41387248
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.5623382,
+            18.4391857
+          ],
+          [
+            -66.5808347,
+            18.4362484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494780772301,
+        "ts_end": 1494780772527,
+        "id": 62,
+        "dur": 226,
+        "distance": 44.15923552,
+        "speed": 195394.847434
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.5808347,
+            18.4362484
+          ],
+          [
+            -66.983862,
+            18.3292969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494781322885,
+        "ts_end": 1494817657001,
+        "id": 63,
+        "dur": 36334116,
+        "distance": 20.7678364212,
+        "speed": 0.57157951555
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.983862,
+            18.3292969
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494817970280,
+        "ts_end": 1494817970534,
+        "id": 64,
+        "dur": 254,
+        "distance": 8.49383757625,
+        "speed": 33440.3054183
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1349648,
+            18.2898094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494818364159,
+        "ts_end": 1494818364451,
+        "id": 65,
+        "dur": 292,
+        "distance": 8.49383757625,
+        "speed": 29088.4848502
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1349648,
+            18.2898094
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494818664100,
+        "ts_end": 1494818664397,
+        "id": 66,
+        "dur": 297,
+        "distance": 0.967843503989,
+        "speed": 3258.73233666
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1473289,
+            18.2132716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494818964419,
+        "ts_end": 1494818964799,
+        "id": 67,
+        "dur": 380,
+        "distance": 0.967843503989,
+        "speed": 2546.95658944
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1473289,
+            18.2132716
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494819465300,
+        "ts_end": 1494819465585,
+        "id": 68,
+        "dur": 285,
+        "distance": 1.55635638987,
+        "speed": 5460.89961358
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494820058471,
+        "ts_end": 1494820058863,
+        "id": 69,
+        "dur": 392,
+        "distance": 2.03845377064,
+        "speed": 5200.13717001
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494820563182,
+        "ts_end": 1494820563919,
+        "id": 70,
+        "dur": 737,
+        "distance": 2.03845377064,
+        "speed": 2765.88028581
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494821762344,
+        "ts_end": 1494821762719,
+        "id": 71,
+        "dur": 375,
+        "distance": 1.55635638987,
+        "speed": 4150.28370632
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494823588133,
+        "ts_end": 1494823588379,
+        "id": 72,
+        "dur": 246,
+        "distance": 3.54559206449,
+        "speed": 14412.9758719
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494824424641,
+        "ts_end": 1494824424897,
+        "id": 73,
+        "dur": 256,
+        "distance": 3.80092514241,
+        "speed": 14847.3638375
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1427487,
+            18.2133774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494825419205,
+        "ts_end": 1494825419732,
+        "id": 74,
+        "dur": 527,
+        "distance": 2.04888624606,
+        "speed": 3887.82968892
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427487,
+            18.2133774
+          ],
+          [
+            -67.1304981,
+            18.2276643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494826312452,
+        "ts_end": 1494826325130,
+        "id": 75,
+        "dur": 12678,
+        "distance": 1.77281606579,
+        "speed": 139.834048414
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1304981,
+            18.2276643
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494827917927,
+        "ts_end": 1494827950016,
+        "id": 76,
+        "dur": 32089,
+        "distance": 1.56208230976,
+        "speed": 48.6796818148
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494828983204,
+        "ts_end": 1494828983581,
+        "id": 77,
+        "dur": 377,
+        "distance": 1.56208230976,
+        "speed": 4143.45440254
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494829813940,
+        "ts_end": 1494829814188,
+        "id": 78,
+        "dur": 248,
+        "distance": 1.77281606579,
+        "speed": 7148.4518782
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1304981,
+            18.2276643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494832275059,
+        "ts_end": 1494832275308,
+        "id": 79,
+        "dur": 249,
+        "distance": 1.77281606579,
+        "speed": 7119.74323612
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1304981,
+            18.2276643
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494832967622,
+        "ts_end": 1494832967867,
+        "id": 80,
+        "dur": 245,
+        "distance": 1.55635638987,
+        "speed": 6352.47506069
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494834744231,
+        "ts_end": 1494834744485,
+        "id": 81,
+        "dur": 254,
+        "distance": 1.55635638987,
+        "speed": 6127.38736169
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494835546355,
+        "ts_end": 1494835547188,
+        "id": 82,
+        "dur": 833,
+        "distance": 0.483921470038,
+        "speed": 580.938139302
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1427487,
+            18.2133774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494838543765,
+        "ts_end": 1494838544017,
+        "id": 83,
+        "dur": 252,
+        "distance": 3.80092514241,
+        "speed": 15083.0362794
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427487,
+            18.2133774
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494839298464,
+        "ts_end": 1494839309444,
+        "id": 84,
+        "dur": 10980,
+        "distance": 2.03093113955,
+        "speed": 184.966406152
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494840160897,
+        "ts_end": 1494840161221,
+        "id": 85,
+        "dur": 324,
+        "distance": 2.03093113955,
+        "speed": 6268.30598627
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494840998516,
+        "ts_end": 1494840998887,
+        "id": 86,
+        "dur": 371,
+        "distance": 1.772776001,
+        "speed": 4778.37197035
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1304981,
+            18.2276643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494842005249,
+        "ts_end": 1494842005504,
+        "id": 87,
+        "dur": 255,
+        "distance": 2.04888624606,
+        "speed": 8034.84802376
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1304981,
+            18.2276643
+          ],
+          [
+            -67.1427487,
+            18.2133774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494842790376,
+        "ts_end": 1494842790724,
+        "id": 88,
+        "dur": 348,
+        "distance": 1.77201163606,
+        "speed": 5091.98745995
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427487,
+            18.2133774
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494843566774,
+        "ts_end": 1494843567346,
+        "id": 89,
+        "dur": 572,
+        "distance": 2.03093113955,
+        "speed": 3550.5789153
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494844658634,
+        "ts_end": 1494844658900,
+        "id": 90,
+        "dur": 266,
+        "distance": 2.03093113955,
+        "speed": 7635.079472
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494845592192,
+        "ts_end": 1494845592580,
+        "id": 91,
+        "dur": 388,
+        "distance": 2.03093113955,
+        "speed": 5234.35860709
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494846448783,
+        "ts_end": 1494846449049,
+        "id": 92,
+        "dur": 266,
+        "distance": 1.772776001,
+        "speed": 6664.57143234
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1304981,
+            18.2276643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494847096594,
+        "ts_end": 1494847096966,
+        "id": 93,
+        "dur": 372,
+        "distance": 0.382113956008,
+        "speed": 1027.18805378
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1304981,
+            18.2276643
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494847903523,
+        "ts_end": 1494847903763,
+        "id": 94,
+        "dur": 240,
+        "distance": 3.29137180455,
+        "speed": 13714.0491856
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1424386,
+            18.1984144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494848507705,
+        "ts_end": 1494848507940,
+        "id": 95,
+        "dur": 235,
+        "distance": 3.29701591264,
+        "speed": 14029.8549474
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1424386,
+            18.1984144
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494848772738,
+        "ts_end": 1494848773619,
+        "id": 96,
+        "dur": 881,
+        "distance": 0.00864852165769,
+        "speed": 9.81671016764
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494848890144,
+        "ts_end": 1494848890723,
+        "id": 97,
+        "dur": 579,
+        "distance": 0.00864852165769,
+        "speed": 14.9369976817
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494849454246,
+        "ts_end": 1494849454568,
+        "id": 98,
+        "dur": 322,
+        "distance": 1.77201163606,
+        "speed": 5503.1417269
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1427487,
+            18.2133774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494849809347,
+        "ts_end": 1494849809581,
+        "id": 99,
+        "dur": 234,
+        "distance": 1.77201163606,
+        "speed": 7572.69929941
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427487,
+            18.2133774
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494850153673,
+        "ts_end": 1494850153927,
+        "id": 100,
+        "dur": 254,
+        "distance": 0.00864852165769,
+        "speed": 34.0492978649
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494850609995,
+        "ts_end": 1494850610338,
+        "id": 101,
+        "dur": 343,
+        "distance": 2.03845377064,
+        "speed": 5943.01390858
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1228277,
+            18.2418454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494851630418,
+        "ts_end": 1494851630962,
+        "id": 102,
+        "dur": 544,
+        "distance": 2.03093113955,
+        "speed": 3733.32930065
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1228277,
+            18.2418454
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494852161246,
+        "ts_end": 1494852161479,
+        "id": 103,
+        "dur": 233,
+        "distance": 1.56208230976,
+        "speed": 6704.2159217
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494852930975,
+        "ts_end": 1494852931336,
+        "id": 104,
+        "dur": 361,
+        "distance": 1.55635638987,
+        "speed": 4311.23653703
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494853232292,
+        "ts_end": 1494853232590,
+        "id": 105,
+        "dur": 298,
+        "distance": 1.55635638987,
+        "speed": 5222.67244922
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494854163032,
+        "ts_end": 1494854163265,
+        "id": 106,
+        "dur": 233,
+        "distance": 1.55635638987,
+        "speed": 6679.64115824
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494854463380,
+        "ts_end": 1494854463708,
+        "id": 107,
+        "dur": 328,
+        "distance": 1.76479488515,
+        "speed": 5380.47221081
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1427487,
+            18.2133774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494854763355,
+        "ts_end": 1494854763617,
+        "id": 108,
+        "dur": 262,
+        "distance": 1.76479488515,
+        "speed": 6735.85834025
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427487,
+            18.2133774
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494855416319,
+        "ts_end": 1494855416604,
+        "id": 109,
+        "dur": 285,
+        "distance": 0.00864852165769,
+        "speed": 30.345690027
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494858711791,
+        "ts_end": 1494858712125,
+        "id": 110,
+        "dur": 334,
+        "distance": 0.333614375,
+        "speed": 998.845434133
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1356854,
+            18.2294592
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494859178855,
+        "ts_end": 1494859179139,
+        "id": 111,
+        "dur": 284,
+        "distance": 0.425590641553,
+        "speed": 1498.55859702
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1356854,
+            18.2294592
+          ],
+          [
+            -67.1317754,
+            18.2285334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494859608321,
+        "ts_end": 1494859608592,
+        "id": 112,
+        "dur": 271,
+        "distance": 0.0159666908349,
+        "speed": 58.9176783575
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1317754,
+            18.2285334
+          ],
+          [
+            -67.131822,
+            18.22867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494859923419,
+        "ts_end": 1494859923937,
+        "id": 113,
+        "dur": 518,
+        "distance": 0.00298268771749,
+        "speed": 5.75808439671
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.131822,
+            18.22867
+          ],
+          [
+            -67.1318096,
+            18.2286459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494862924578,
+        "ts_end": 1494862925095,
+        "id": 114,
+        "dur": 517,
+        "distance": 0.0102921180709,
+        "speed": 19.9073850501
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1318096,
+            18.2286459
+          ],
+          [
+            -67.1317689,
+            18.2285618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494865938790,
+        "ts_end": 1494865939189,
+        "id": 115,
+        "dur": 399,
+        "distance": 0.00323169241844,
+        "speed": 8.09947974546
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1317689,
+            18.2285618
+          ],
+          [
+            -67.1317754,
+            18.2285334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494866239044,
+        "ts_end": 1494866239376,
+        "id": 116,
+        "dur": 332,
+        "distance": 0.00323169241844,
+        "speed": 9.73401330855
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1317754,
+            18.2285334
+          ],
+          [
+            -67.1317689,
+            18.2285618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494866539317,
+        "ts_end": 1494866539632,
+        "id": 117,
+        "dur": 315,
+        "distance": 0.00315793591674,
+        "speed": 10.0251933865
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1317689,
+            18.2285618
+          ],
+          [
+            -67.1317689,
+            18.2285334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494869064219,
+        "ts_end": 1494869065012,
+        "id": 118,
+        "dur": 793,
+        "distance": 0.00315793591674,
+        "speed": 3.98226471216
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1317689,
+            18.2285334
+          ],
+          [
+            -67.1317689,
+            18.2285618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494869497467,
+        "ts_end": 1494869497731,
+        "id": 119,
+        "dur": 264,
+        "distance": 0.287654974161,
+        "speed": 1089.60217485
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1317689,
+            18.2285618
+          ],
+          [
+            -67.1339166,
+            18.2269709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494871384807,
+        "ts_end": 1494871385278,
+        "id": 120,
+        "dur": 471,
+        "distance": 1.4997749316,
+        "speed": 3184.23552356
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339166,
+            18.2269709
+          ],
+          [
+            -67.1339166,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494871693898,
+        "ts_end": 1494871694395,
+        "id": 121,
+        "dur": 497,
+        "distance": 1.49373999774,
+        "speed": 3005.51307392
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339166,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494872351865,
+        "ts_end": 1494872352362,
+        "id": 122,
+        "dur": 497,
+        "distance": 2.06763522997,
+        "speed": 4160.23185104
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1473289,
+            18.2132716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494872651912,
+        "ts_end": 1494872652154,
+        "id": 123,
+        "dur": 242,
+        "distance": 0.967843503989,
+        "speed": 3999.35332227
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1473289,
+            18.2132716
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494872951873,
+        "ts_end": 1494872952223,
+        "id": 124,
+        "dur": 350,
+        "distance": 0.483921470038,
+        "speed": 1382.63277154
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1427487,
+            18.2133774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494873551662,
+        "ts_end": 1494873552159,
+        "id": 125,
+        "dur": 497,
+        "distance": 1.76479488515,
+        "speed": 3550.89514114
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1427487,
+            18.2133774
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494873861122,
+        "ts_end": 1494873861375,
+        "id": 126,
+        "dur": 253,
+        "distance": 1.55635638987,
+        "speed": 6151.60628407
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494874161215,
+        "ts_end": 1494874161454,
+        "id": 127,
+        "dur": 239,
+        "distance": 1.50361121482,
+        "speed": 6291.26031307
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.137884,
+            18.2270027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494874461075,
+        "ts_end": 1494874461345,
+        "id": 128,
+        "dur": 270,
+        "distance": 2.74377241126,
+        "speed": 10162.1200417
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.137884,
+            18.2270027
+          ],
+          [
+            -67.1365667,
+            18.2516463
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494874897581,
+        "ts_end": 1494874897897,
+        "id": 129,
+        "dur": 316,
+        "distance": 2.76288747984,
+        "speed": 8743.31480961
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1365667,
+            18.2516463
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494875381452,
+        "ts_end": 1494875381913,
+        "id": 130,
+        "dur": 461,
+        "distance": 0.00864852165769,
+        "speed": 18.7603506674
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494875981878,
+        "ts_end": 1494875982155,
+        "id": 131,
+        "dur": 277,
+        "distance": 0.0036583130865,
+        "speed": 13.2069064495
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1339551,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494876281822,
+        "ts_end": 1494876282329,
+        "id": 132,
+        "dur": 507,
+        "distance": 1.55857595468,
+        "speed": 3074.11430902
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269162
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494877092604,
+        "ts_end": 1494877092836,
+        "id": 133,
+        "dur": 232,
+        "distance": 1.56208230976,
+        "speed": 6733.11340412
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494877494656,
+        "ts_end": 1494877494956,
+        "id": 134,
+        "dur": 300,
+        "distance": 6.98974644736,
+        "speed": 23299.1548245
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1339551,
+            18.2898094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494878035485,
+        "ts_end": 1494878036246,
+        "id": 135,
+        "dur": 761,
+        "distance": 6.98974644736,
+        "speed": 9184.94933949
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2898094
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494878950884,
+        "ts_end": 1494878951214,
+        "id": 136,
+        "dur": 330,
+        "distance": 6.99055959255,
+        "speed": 21183.5139168
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1349648,
+            18.2898094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494880020420,
+        "ts_end": 1494880020618,
+        "id": 137,
+        "dur": 198,
+        "distance": 8.49383757625,
+        "speed": 42898.169577
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1349648,
+            18.2898094
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494881039746,
+        "ts_end": 1494881040040,
+        "id": 138,
+        "dur": 294,
+        "distance": 1.56208230976,
+        "speed": 5313.20513522
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494882427191,
+        "ts_end": 1494882427447,
+        "id": 139,
+        "dur": 256,
+        "distance": 1.15425302698,
+        "speed": 4508.80088665
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1406615,
+            18.218753
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494883173839,
+        "ts_end": 1494883174122,
+        "id": 140,
+        "dur": 283,
+        "distance": 1.94138843746,
+        "speed": 6860.02981435
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1406615,
+            18.218753
+          ],
+          [
+            -67.138408,
+            18.2014254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494883896466,
+        "ts_end": 1494883896628,
+        "id": 141,
+        "dur": 162,
+        "distance": 0.163574807427,
+        "speed": 1009.7210335
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.138408,
+            18.2014254
+          ],
+          [
+            -67.1386178,
+            18.1999679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494884568377,
+        "ts_end": 1494884568627,
+        "id": 142,
+        "dur": 250,
+        "distance": 0.163574807427,
+        "speed": 654.299229708
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1386178,
+            18.1999679
+          ],
+          [
+            -67.138408,
+            18.2014254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494885450964,
+        "ts_end": 1494885451215,
+        "id": 143,
+        "dur": 251,
+        "distance": 0.0694989377948,
+        "speed": 276.888198386
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.138408,
+            18.2014254
+          ],
+          [
+            -67.1378265,
+            18.201133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494886456443,
+        "ts_end": 1494886456883,
+        "id": 144,
+        "dur": 440,
+        "distance": 2.89487923121,
+        "speed": 6579.27098002
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1378265,
+            18.201133
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494887141800,
+        "ts_end": 1494887142076,
+        "id": 145,
+        "dur": 276,
+        "distance": 0.382113956008,
+        "speed": 1384.4708551
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1304981,
+            18.2276643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494888662495,
+        "ts_end": 1494888662924,
+        "id": 146,
+        "dur": 429,
+        "distance": 6.92629831737,
+        "speed": 16145.217523
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1304981,
+            18.2276643
+          ],
+          [
+            -67.1349648,
+            18.2898094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494888977391,
+        "ts_end": 1494888977720,
+        "id": 147,
+        "dur": 329,
+        "distance": 8.61018658127,
+        "speed": 26170.7798823
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1349648,
+            18.2898094
+          ],
+          [
+            -67.1473289,
+            18.2132716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494889362888,
+        "ts_end": 1494889363168,
+        "id": 148,
+        "dur": 280,
+        "distance": 2.07564641004,
+        "speed": 7413.02289301
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1473289,
+            18.2132716
+          ],
+          [
+            -67.1339551,
+            18.2269491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494889789260,
+        "ts_end": 1494889789485,
+        "id": 149,
+        "dur": 225,
+        "distance": 1.56208230976,
+        "speed": 6942.58804336
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1339551,
+            18.2269491
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494890471918,
+        "ts_end": 1494890472216,
+        "id": 150,
+        "dur": 298,
+        "distance": 1.55635638987,
+        "speed": 5222.67244922
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494891072869,
+        "ts_end": 1494891073525,
+        "id": 151,
+        "dur": 656,
+        "distance": 2.76288747984,
+        "speed": 4211.71871926
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1340293,
+            18.2269162
+          ],
+          [
+            -67.1365667,
+            18.2516463
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494891372716,
+        "ts_end": 1494891373046,
+        "id": 152,
+        "dur": 330,
+        "distance": 4.24692487326,
+        "speed": 12869.4693129
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1365667,
+            18.2516463
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494891672167,
+        "ts_end": 1494891672496,
+        "id": 153,
+        "dur": 329,
+        "distance": 1.49369256911,
+        "speed": 4540.09899425
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1381685,
+            18.2269162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494892272105,
+        "ts_end": 1494892273318,
+        "id": 154,
+        "dur": 1213,
+        "distance": 1.49369256911,
+        "speed": 1231.4036019
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2269162
+          ],
+          [
+            -67.1381685,
+            18.2134831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ts_start": 1494892573200,
+        "ts_end": 1494892573494,
+        "id": 155,
+        "dur": 294,
+        "distance": 1.55635638987,
+        "speed": 5293.72921724
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1381685,
+            18.2134831
+          ],
+          [
+            -67.1340293,
+            18.2269162
+          ]
+        ]
+      }
+    }
+  ]
+}

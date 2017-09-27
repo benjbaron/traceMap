@@ -1,0 +1,941 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "56879",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441778806000,
+                "id": "0",
+                "dur": 6625000,
+                "ts_start": 1441772181000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.77694981242, 45.7344421262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "291",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441779249000,
+                "id": "0",
+                "dur": 0,
+                "ts_start": 1441779249000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.76861363149, 45.7563874652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "113",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441779249000,
+                "id": "1",
+                "dur": 0,
+                "ts_start": 1441779249000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.78277220302, 45.755836854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "291",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441779252000,
+                "id": "2",
+                "dur": 0,
+                "ts_start": 1441779252000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.76861363149, 45.7563874652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441779978000,
+                "id": "3",
+                "dur": 1000,
+                "ts_start": 1441779977000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "42057",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441780010000,
+                "id": "4",
+                "dur": 0,
+                "ts_start": 1441780010000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441781473000,
+                "id": "5",
+                "dur": 4000,
+                "ts_start": 1441781469000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "42057",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441783809000,
+                "id": "6",
+                "dur": 0,
+                "ts_start": 1441783809000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "61359",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441783843000,
+                "id": "7",
+                "dur": 0,
+                "ts_start": 1441783843000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441784359000,
+                "id": "8",
+                "dur": 68000,
+                "ts_start": 1441784291000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "28051",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441787084000,
+                "id": "9",
+                "dur": 0,
+                "ts_start": 1441787084000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441787977000,
+                "id": "10",
+                "dur": 83000,
+                "ts_start": 1441787894000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "53083",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441790352000,
+                "id": "11",
+                "dur": 0,
+                "ts_start": 1441790352000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.85082739989, 45.7658371067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "8940",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441790352000,
+                "id": "12",
+                "dur": 0,
+                "ts_start": 1441790352000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.85825314428, 45.7622950973
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "53083",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441790357000,
+                "id": "13",
+                "dur": 0,
+                "ts_start": 1441790357000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.85082739989, 45.7658371067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "3342",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441792520000,
+                "id": "14",
+                "dur": 4000,
+                "ts_start": 1441792516000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.81473851634, 45.7752444615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441796655000,
+                "id": "15",
+                "dur": 3000,
+                "ts_start": 1441796652000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "28051",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441796692000,
+                "id": "16",
+                "dur": 0,
+                "ts_start": 1441796692000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "83",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441798725000,
+                "id": "17",
+                "dur": 34000,
+                "ts_start": 1441798691000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441799537000,
+                "id": "18",
+                "dur": 32000,
+                "ts_start": 1441799505000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "83",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441799690000,
+                "id": "19",
+                "dur": 0,
+                "ts_start": 1441799690000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "82",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441799690000,
+                "id": "20",
+                "dur": 0,
+                "ts_start": 1441799690000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "83",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441799703000,
+                "id": "21",
+                "dur": 0,
+                "ts_start": 1441799703000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "9349",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441800690000,
+                "id": "22",
+                "dur": 3000,
+                "ts_start": 1441800687000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "52442",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441801125000,
+                "id": "23",
+                "dur": 0,
+                "ts_start": 1441801125000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "3525",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441801126000,
+                "id": "24",
+                "dur": 0,
+                "ts_start": 1441801126000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80250615071, 45.7672236465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441801536000,
+                "id": "25",
+                "dur": 46000,
+                "ts_start": 1441801490000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "52442",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441802267000,
+                "id": "26",
+                "dur": 4000,
+                "ts_start": 1441802263000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "9349",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441802293000,
+                "id": "27",
+                "dur": 0,
+                "ts_start": 1441802293000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "41476",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441802296000,
+                "id": "28",
+                "dur": 0,
+                "ts_start": 1441802296000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "50716",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441803588000,
+                "id": "29",
+                "dur": 1000,
+                "ts_start": 1441803587000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "86",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441803612000,
+                "id": "30",
+                "dur": 0,
+                "ts_start": 1441803612000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "50716",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441804507000,
+                "id": "31",
+                "dur": 0,
+                "ts_start": 1441804507000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441808263000,
+                "id": "32",
+                "dur": 2030000,
+                "ts_start": 1441806233000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "42057",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441808263000,
+                "id": "33",
+                "dur": 0,
+                "ts_start": 1441808263000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "83",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441808436000,
+                "id": "34",
+                "dur": 66000,
+                "ts_start": 1441808370000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "82",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441808439000,
+                "id": "35",
+                "dur": 2000,
+                "ts_start": 1441808437000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "22608",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441808632000,
+                "id": "36",
+                "dur": 0,
+                "ts_start": 1441808632000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80499706674, 45.7791674565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "50716",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441810156000,
+                "id": "37",
+                "dur": 0,
+                "ts_start": 1441810156000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "44464",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441810156000,
+                "id": "38",
+                "dur": 0,
+                "ts_start": 1441810156000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "17931",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441811140000,
+                "id": "39",
+                "dur": 273000,
+                "ts_start": 1441810867000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80499706674, 45.7791674565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "52442",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441811431000,
+                "id": "40",
+                "dur": 5000,
+                "ts_start": 1441811426000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "9349",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441811508000,
+                "id": "41",
+                "dur": 41000,
+                "ts_start": 1441811467000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80332829712, 45.7766657928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "42057",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441819875000,
+                "id": "42",
+                "dur": 112000,
+                "ts_start": 1441819763000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.80083797814, 45.7816620866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "14617",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441823597000,
+                "id": "43",
+                "dur": 0,
+                "ts_start": 1441823597000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.78253832664, 45.7659051304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "25237",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441823665000,
+                "id": "44",
+                "dur": 0,
+                "ts_start": 1441823665000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.78253832664, 45.7659051304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "9",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441823665000,
+                "id": "45",
+                "dur": 0,
+                "ts_start": 1441823665000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.77694981242, 45.7344421262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "25237",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441823681000,
+                "id": "46",
+                "dur": 0,
+                "ts_start": 1441823681000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.78253832664, 45.7659051304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "178",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441824501000,
+                "id": "47",
+                "dur": 33000,
+                "ts_start": 1441824468000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.78388470332, 45.7450023511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "181",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441824514000,
+                "id": "48",
+                "dur": 0,
+                "ts_start": 1441824514000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.78388470332, 45.7450023511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "56879",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441824617000,
+                "id": "49",
+                "dur": 59000,
+                "ts_start": 1441824558000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.77694981242, 45.7344421262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "14193",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441824761000,
+                "id": "50",
+                "dur": 0,
+                "ts_start": 1441824761000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.76222476651, 45.7380556872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "56879",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441825118000,
+                "id": "51",
+                "dur": 10000,
+                "ts_start": 1441825108000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.77694981242, 45.7344421262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "9715",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441825397000,
+                "id": "52",
+                "dur": 0,
+                "ts_start": 1441825397000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.77694981242, 45.7344421262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "56879",
+                "user_id": "f7ee466145b5f62ad979777487af2d942118522e",
+                "ts_end": 1441825759000,
+                "id": "53",
+                "dur": 1000,
+                "ts_start": 1441825758000
+            }, 
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.77694981242, 45.7344421262
+                ]
+            }
+        }
+    ]
+}
