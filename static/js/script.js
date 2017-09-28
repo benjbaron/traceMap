@@ -12,13 +12,10 @@ var availableTraces = {}
 var availableTracesUrl = '/gettraceslist';
 var layersShown = new Set();
 var legendShown = null;
-var slider = null;
 
-var minTS     = 1e20;
-var maxTS     = 0;
-var begTime   = 0;
-var startTime = 0;
-var endTime   = 0;
+var begTime   = 0
+var startTime = 0
+var endTime   = 0
 
 function getTimeBounds(features, prop) {
   var minBound = 1e10;
@@ -78,9 +75,8 @@ function renderLayerListings(traceIds) {
       button.setAttribute('aria-label', 'Close');
       button.setAttribute('id', 'del-'+traceId);
       button.addEventListener('click', function() {
-        // var layerId = button.id.match(/del\-(.*)/)[1];
-        // update the time slider
-        var sourceId = availableTraces[traceId]["source-id"];
+        var layerId = button.id.match(/del\-(.*)/)[1];
+        var sourceId = availableTraces[layerId]["source-id"];
         map.removeLayer(traceId);
         map.removeSource(sourceId);
         map.off('click', traceId, generatePopupHTML);
@@ -93,22 +89,6 @@ function renderLayerListings(traceIds) {
         if(layersShown.size == 0) {
           $("#timeline-slider").hide();
         }
-        // update the time slider
-        var minTSTrace = 1e20;
-        var maxTSTrace = 0;
-        layersShown.forEach(function(tid) {
-          var startTS = availableTraces[tid]["timeline"]['start'];
-          var endTS = availableTraces[tid]["timeline"]['end'];
-          if(startTS < minTSTrace) minTSTrace = startTS;
-          if(endTS > maxTSTrace) maxTSTrace = endTS;
-        });
-        if(minTSTrace > minTS) minTS = minTSTrace;
-        if(maxTSTrace < maxTS) maxTS = maxTSTrace;
-        var endTime = maxTS - minTS;
-        slider.update({
-          max: endTime,
-          to: endTime
-        });
       });
       item.textContent = traceName;
       item.addEventListener('click', function() {
@@ -281,8 +261,8 @@ function generatePopupHTML(e) {
 function renderTraces(error, data) {
   if(error) throw error;
   var traceIds = data[0];
-  var minTSTrace = 1e20;
-  var maxTSTrace = 0;
+  var minTS = 1e20;
+  var maxTS = 0;
   data.shift();
   for(var idx in data) {
     var traceId = traceIds[idx];
@@ -294,10 +274,10 @@ function renderTraces(error, data) {
     var layout = availableTraces[traceId]["layout"];
     var start_ts = availableTraces[traceId]["timeline"]['start'];
     var end_ts = availableTraces[traceId]["timeline"]['end'];
-    if(minTSTrace > start_ts)
-      minTSTrace = start_ts;
-    if(maxTSTrace < end_ts)
-      maxTSTrace = end_ts;
+    if(minTS > start_ts)
+      minTS = start_ts;
+    if(maxTS < end_ts)
+      maxTS = end_ts;
 
     if(typeof map.getSource(sourceId) === "undefined") {
       map.addSource(sourceId, {
@@ -322,54 +302,42 @@ function renderTraces(error, data) {
   }
   renderLayerListings(traceIds);
 
-  minTS = Math.min(minTSTrace, minTS);
-  maxTS = Math.max(maxTSTrace, maxTS);
-
   startTime = 0;
   endTime = maxTS - minTS;
 
-  if(slider !== null) {
-    slider.update({
-      max: endTime,
-      to: endTime
-    });
-  } else {
-    $("#timeline-slider").show();
-    $("#slider").ionRangeSlider({
-      hide_min_max: true,
-      keyboard: true,
-      min: startTime,
-      max: endTime,
-      from: startTime,
-      to: endTime,
-      type: 'double',
-      step: 1000,
-      grid: true,
-      prettify: function (num) {
-        var t = moment.unix((minTS+num)/1000).format("D/M/YY H:mm:ss");
-        // t += "<br/>";
-        // t += moment.unix((begTime+num)/1000).format("H:mm:ss");
-        return t;
-      },
-      onFinish: function (d) {
-        // filter the map data
-        var from  = minTS + d.from;
-        var to    = minTS + d.to;
+  $("#timeline-slider").show();
+  $("#slider").ionRangeSlider({
+    hide_min_max: true,
+    keyboard: true,
+    min: startTime,
+    max: endTime,
+    from: startTime,
+    to: endTime,
+    type: 'double',
+    step: 1000,
+    grid: true,
+    prettify: function (num) {
+      var t = moment.unix((minTS+num)/1000).format("D/M/YY H:mm:ss");
+      // t += "<br/>";
+      // t += moment.unix((begTime+num)/1000).format("H:mm:ss");
+      return t;
+    },
+    onFinish: function (d) {
+      // filter the map data
+      var from  = minTS + d.from;
+      var to    = minTS + d.to;
 
-        var layersShownArr = Array.from(layersShown);
-        for(var idx in layersShownArr) {
-          var layerId = layersShownArr[idx];
-          map.setFilter(layerId, [
-            "all",
-            [">=", "ts_start", from],
-            ["<=", "ts_start", to]
-          ]);
-        }
+      var layersShownArr = Array.from(layersShown);
+      for(var idx in layersShownArr) {
+        var layerId = layersShownArr[idx];
+        map.setFilter(layerId, [
+          "all",
+          [">=", "ts_start", from],
+          ["<=", "ts_start", to]
+        ]);
       }
-    });
-    slider = $("#slider").data("ionRangeSlider");
-  }
-
+    }
+  });
 }
 
 function init() {    
