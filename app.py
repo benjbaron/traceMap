@@ -54,12 +54,14 @@ def process_trace():
 	trace_id = ""
 	user_id = ""
 	path = ""
+	process = False
 	if request.method == 'POST':
 		trace_id = request.json['trace_id']
 		user_id = request.json['user_id']
 		path = request.json['path']
+		process = request.json['process']
 
-		db.process_new_trace(trace_db, path, trace_id, user_id)
+		db.process_new_trace(trace_db, path, trace_id, user_id, process)
 	
 	return json.dumps({"trace_id": trace_id, "user_id": user_id})
 

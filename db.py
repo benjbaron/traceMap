@@ -180,9 +180,15 @@ def add_trace_db(db, geojson_pl, geojson_mov, stats, trace_id, user_id):
     db.traces.insert_one(d)
 
 
-def process_new_trace(db, path, trace_id, user_id):
+def process_new_trace(db, path, trace_id, user_id, proc):
     print("process trace " + path)
-    pl, mov, stats = process.process_trace(path, user_id)
+    if proc:
+        pl, mov, stats = process.aggregate_trace(path, user_id)
+    else:
+        pl, mov, stats = process.process_trace(path, user_id)
+
+    # Remove the trace after having processed it
+    os.remove(path)
 
     # put the txt in the mongoDB database
     add_trace_db(db, pl, mov, stats, trace_id, user_id)

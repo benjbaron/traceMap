@@ -82,12 +82,17 @@
                             
                             <div class="row" id="newtraceModal-content" style="display: none">
                                 <div class="col-md-5">
-                                    <div class="input-group">
-                                      <input type="text" class="form-control" placeholder="Trace name">
-                                    </div>
+                                  <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Trace name">
+                                  </div>
                                 </div>
                                 <div class="col-md-5 col-md-offset-0">
-                                    <select id="newtraceModal-uids" class="form-control"></select>
+                                  <select id="newtraceModal-uids" class="form-control"></select>
+                                </div>
+                                <div class="col-md-5 col-md-offset-0">
+                                  <div class="checkbox">
+                                    <label><input id="newtraceModal-process" type="checkbox" value="">Aggregate the trace</label>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -136,11 +141,13 @@
                 var trace_id = $('#newtraceModal-content .form-control').val();
                 var sel = document.getElementById( "newtraceModal-uids" );
                 var user_id = sel.options[ sel.selectedIndex ].value;
+                var process_trace = document.getElementById( "newtraceModal-process" ).checked;
+
                 console.log(user_id + " " + trace_id + " " + tracePath);
                 $.ajax({
                   type: "POST",
                   url: "processtrace",
-                  data: JSON.stringify({trace_id: trace_id, path: tracePath, user_id: user_id}, null, '\t'),
+                  data: JSON.stringify({trace_id: trace_id, path: tracePath, user_id: user_id, process: process_trace}, null, '\t'),
                   contentType : "application/json;charset=utf-8",
                   dataType: "json",
                   success: function(msg){
