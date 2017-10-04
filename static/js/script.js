@@ -202,7 +202,7 @@ function renderTraceListing(data) {
 }
 
 function renderLegend(traceId) {
-  var trace = availableTraces.traces[traceId];
+  var trace = availableTraces[traceId];
   var panelEl = document.getElementById('layer-modal-panel-content');
   panelEl.textContent = "";
 
