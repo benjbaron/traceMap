@@ -35,6 +35,18 @@ function getTimeBounds(features, prop) {
   return [minBound, maxBound];
 }
 
+function curveLine(origin, destination, offset) {
+  var ls = turf.lineString([origin, destination]);
+  var midpoint = turf.midpoint(turf.point(origin), turf.point(destination));
+  var rotatedLine = turf.transformRotate(ls, 90, midpoint);
+  var lineDistance = turf.lineDistance(ls, 'kilometers');
+  var along = turf.along(rotatedLine, offset*lineDistance);
+
+  var line = turf.lineString([origin, along.geometry.coordinates, destination]);
+  var curved = turf.bezier(line);
+  return curved.geometry.coordinates;
+}
+
 function renderLayerListings(traceIds) {
   // Clear any existing listings
   if (traceIds.length) {
@@ -298,6 +310,19 @@ function renderTraces(error, data) {
       minTSTrace = start_ts;
     if(maxTSTrace < end_ts)
       maxTSTrace = end_ts;
+    console.log("dataSource");
+    console.log(dataSource);
+
+    // Bend the curves
+    for(var jdx in dataSource.features) {
+      var feature = dataSource.features[jdx];
+      console.log(feature.geometry.type);
+      if(feature.geometry.type === "LineString") {
+        var origin = feature.geometry.coordinates[0];
+        var destination = feature.geometry.coordinates[1];
+        feature.geometry.coordinates = curveLine(origin, destination, 0.35+Math.random()*0.15);
+      }
+    }
 
     if(typeof map.getSource(sourceId) === "undefined") {
       map.addSource(sourceId, {
