@@ -11,3 +11,5 @@ Here are some information related to the use of the service:
 - The spatiotemporal points of the trace data must be ordered by timestamp (from oldest to newest)
 - To add a new trace, go to the "Trace list" menu and upload the new trace
 - The data is automatically processed by the backend server to aggregate the points that have the same coordinates _in sequence_
+
+This project is simlar to the Dropchop project: https://github.com/cugos/dropchop
