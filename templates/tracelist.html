@@ -110,6 +110,7 @@
           <table id="table" data-url="gettraces" data-unique-id="id">
               <thead>
                 <tr>
+                  <th data-field="delete"></th>
                   <th data-field="trace_id">Trace name</th>
                   <th data-field="user_id">User identifier</th>
                   <th data-field="uptime">Uploaded Time</th>
@@ -124,9 +125,26 @@
           $(function () {
               $('#table').bootstrapTable({
                   onClickRow: function(r, e, f) {
-                    url = "showTrace?id="+r['id'];
-                    console.log(url);
-                    window.location.href = url;
+                    var trace_id = r['trace_id'];
+                    var user_id  = r['user_id'];
+                    if(f === 'delete') {
+                      $.ajax({
+                        type: "POST",
+                        url: "deletetrace",
+                        data: JSON.stringify({trace_id: trace_id, user_id: user_id}, null, '\t'),
+                        contentType : "application/json;charset=utf-8",
+                        dataType: "json",
+                        success: function(msg){
+                          console.log(msg)
+                          $('#table').bootstrapTable('refresh');
+                        }
+                      });
+                    } else {
+                      url = "showTrace?trace_id="+trace_id+"&user_id="+user_id;
+                      console.log(url);
+                      console.log(f);
+                      // window.location.href = url;
+                    }
                   }
               });
 
@@ -187,7 +205,6 @@
                   }
               }).prop('disabled', !$.support.fileInput)
                 .parent().addClass($.support.fileInput ? undefined : 'disabled');
-
           });
           </script>
         </div>

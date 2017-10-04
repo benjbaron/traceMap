@@ -394,7 +394,6 @@ function renderTraces(error, data) {
     });
     slider = $("#slider").data("ionRangeSlider");
   }
-
 }
 
 function init() {    

@@ -39,6 +39,14 @@ def get_traces_list():
 	return json.dumps(db.get_traces_list(trace_db))
 
 
+@app.route('/deletetrace', methods = [ 'POST' ])
+def delete_trace():
+	if request.method == 'POST':
+		trace_id = request.json['trace_id']
+		user_id = request.json['user_id']
+		return json.dumps(db.delete_trace(trace_db, trace_id, user_id))
+
+
 @app.route('/showtrace', methods = [ 'GET', 'POST' ])
 def show_trace():
 	if request.method == 'GET':
