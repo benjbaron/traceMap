@@ -183,3 +183,12 @@ li>div:hover {
     background-color: #FAFAFA;
 }
 
+.delete-icon {
+    display: block;
+    text-align: center;
+    color: #930000;
+}
+
+.delete-icon:hover {
+    color: black;
+}

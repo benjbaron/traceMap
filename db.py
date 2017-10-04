@@ -30,6 +30,7 @@ def get_traces(db):
 
     for doc in cur:
         l.append({
+            "delete": '<a class="delete-icon" href="#"><i class="glyphicon glyphicon-remove icon-remove"></i></a>',
             "trace_id": doc['trace_id'],
             "user_id": doc['user_id'],
             "uptime": doc['uptime'],
@@ -40,6 +41,12 @@ def get_traces(db):
         })
     
     return l
+
+
+def delete_trace(db, trace_id, user_id):
+    print("remove "+trace_id+" "+user_id)
+    db.traces.delete_one({"trace_id": trace_id, "user_id": user_id})
+    return {"msg": "done"}
 
 
 def get_traces_list(db):
