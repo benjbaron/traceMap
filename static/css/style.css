@@ -192,3 +192,7 @@ li>div:hover {
 .delete-icon:hover {
     color: black;
 }
+
+.navbar-nav {
+    margin-top: 3px!important;
+}
