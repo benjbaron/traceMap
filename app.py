@@ -74,6 +74,13 @@ def process_trace():
 	return json.dumps({"trace_id": trace_id, "user_id": user_id})
 
 
+@app.upload('/upload', method = ['POST'])
+def upload():
+	data = request.json
+	print(data)
+	return json.dumps({'submitted': 'ok'})
+
+
 @app.route('/uploader', methods = ['GET', 'POST'])
 def upload_file():
 	print("upload file " + request.method)
