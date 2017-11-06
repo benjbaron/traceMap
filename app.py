@@ -76,8 +76,7 @@ def process_trace():
 
 @app.route('/upload', methods = ['POST'])
 def upload():
-	data = request.json
-	print(data)
+	print(request)
 	return json.dumps({'submitted': 'ok'})
 
 
